@@ -6,7 +6,7 @@ module tb_dff_async();
   
   logic q;
   
-  dff_async DFF_ASYNC(.*);
+  tb_dff_async TB_DFF_ASYNC(.*);
   
   //Generate clk
   always begin
